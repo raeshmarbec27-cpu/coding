@@ -1,0 +1,9 @@
+x=input("Enter the string:");
+vow=['a','e','i','o','u','A','E','I','O','U']
+res=""
+for i in x:
+    if i not in vow:
+        res=res+i
+print(res)        
+        
+        
